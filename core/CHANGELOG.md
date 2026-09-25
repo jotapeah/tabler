@@ -1,5 +1,16 @@
 # @tabler/core
 
+## 1.6.1
+
+### Patch Changes
+
+- 7748029: Fixed CountUp firing `complete.bs.countup` twice when `update()` ran before it scrolled into view.
+- c89bf8d: Fixed autosize not resizing a `position: fixed` textarea.
+- 70b8372: Fixed `.card-progress` to keep a 2px bar fallback when it isn't a direct child of `.card`.
+- e2da442: Fixed the OTP input ignoring `groups` for its length when neither `length` nor `maxlength` is set.
+- 3d10e24: Fixed the Delete key in `.otp` moving the caret to the last slot; it now removes the character under the caret and keeps the caret in place, like Backspace.
+- f7c3956: Fixed the strength meter rating a confirm-password field after it instead of the password field before it.
+
 ## 1.6.0
 
 ### Minor Changes
